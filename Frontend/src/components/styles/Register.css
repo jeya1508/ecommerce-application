@@ -1,0 +1,99 @@
+/* Base styles */
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* Container for the registration form */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 10px auto;
+    width: 100%;
+    padding: 40px;
+    padding-top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-top: 400px; /* Increase margin-top to avoid overlap with the header */
+    margin-bottom: 120px; 
+}
+
+/* Styles for the registration form */
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Heading style */
+.register-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Input group style */
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label style */
+.input-group label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input field style */
+.input-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+/* Button style */
+.register-button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+/* Error and success messages */
+.error {
+    color: red;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+.account-present{
+    padding: 20px;
+    text-align: center;
+}
+
